@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+    .flex-container1{   
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        background-color: #eee;
+        color: #000;
+    }  
+
+    .flex-container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px;
+} 
+
+.flexbox1-container2{
+  background-color:white;
+  color: #000;
+  text-align: left;
+  flex-basis: 100%;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .flexbox1-container2 {
+    flex-basis: calc(33.33% - 20px);
+  }
+}
+    .flex-container3{
+        background-color:#eee;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+    }
+
+.flexbox-container3{
+    flex-basis: 100%;
+    max-width: 350px;
+    margin: 10px;
+}
+.flex-container4{
+    display: flex;
+    padding: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  height: 100%;
+}
+.flexbox-container4{
+    width: 100%;
+    margin-bottom: 30px;
+    flex-basis: 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.flex-container5{
+    width: 100%;
+    padding: 15px;
+    background-color: #eee;
+    color: #000;
+}
+hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0 0 24px;
+    width: 100%;
+    }
+.flex-container6{
+    display: flex;
+  justify-content: space-between;
+  align-items: stretch;  
+}
+.flexbox-container6
+{
+    flex: 1 0 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.insidebox{
+    text-align: center;
+    border: 1px solid black;
+    flex: 1 1 48%;
+    height: 48%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    background-color: #fff;
+}
+
+</style>
+</head>
+<body>
+    <div class="flex-container1">
+        <h1>Veloxcore</h1><br>
+        <p style="margin: 20px; font-size: 20px;">We are a software company with enthusiastic, open minded and focused community of individuals. We try to come up with innovative and groundbreaking ideas to solve our clients’ most notorious challenges, all while seeking to radically change the IT industry and create positive social change with agile as core part.</p>
+    </div>
+    <div class="flex-container2">
+        <div class="flexbox1-container2">
+            <h1 style="font-size: 20px;">DATA ANALYTICS</h1>
+            <p>Our data analytic services will not just help you with decisions but help you take better business decision across whole enterprise.</p>
+        </div>
+        <div class="flexbox1-container2">
+            <h1 style="font-size: 20px;">DATA VISUALIZATION</h1>
+            <p>A picture can tell a thousand words, and for us these pictures are visualizations. We work with different visualization framework and 
+                tools to make it seamless for the user to consume it.</p>
+        </div>
+        <div class="flexbox1-container2">
+            <h1 style="font-size: 20px;">DATA ARCHITECTURE</h1>
+            <p>We'll help you find solutions to all your data storage, processing and modeling question, by finding best-fit, cost effective, reliable enterprise data architecture.</p>
+        </div>
+    </div>
+    <div class="flex-container3">
+        <div class="flexbox-container3">
+            <img src="https://www.veloxcore.com/media/1202/cortana-1.png?center=0.52464788732394363,0.13157894736842105&mode=crop&width=360&height=275&rnd=131017483490000000">
+            <p style="font-size: 16px;font-weight: 600;
+                color: #03A9F4;margin-top: 20px;text-align: center;">CORTANA ANALYTICS SUITE</p>
+                <p style="font-size: 13px;font-weight: 600;
+                color: #03A9F4;text-align: center;">Cortana Analytics Suite: End to end big data solution</p>
+                <p style="font-weight: 400;text-align: center;">Data on its own is useless. You have to be able to form analysis on it to be eventually take action. Cortana analytics can help you build your analytic solution, fast.</p>
+        </div>
+        <div class="flexbox-container3">
+            <img src="https://www.veloxcore.com/media/1243/36520326_s.jpg?anchor=center&mode=crop&width=360&height=275&rnd=131322957760000000">
+            <p style="font-size: 16px;font-weight: 600;text-align: center;
+            color: #03A9F4;margin-top: 20px;">INTERNET OF THINGS (IOT)</p>
+            <p style="font-size: 13px;font-weight: 600;text-align: center;
+            color: #03A9F4;">Internet of Things (IoT) Opportunities</p>
+            <p style="font-weight: 400;text-align: center;">The internet of things is changing our thinking about how we can interact with the surrounding. Learn where are all the opportunities are in the world of IoT.</p>
+        </div>
+        <div class="flexbox-container3">
+            <img src="https://www.veloxcore.com/media/1216/52775680_m.jpg?anchor=center&mode=crop&width=360&height=275&rnd=131322951710000000">
+                <p style="font-size: 16px;font-weight: 600;text-align: center;
+                color: #03A9F4;margin-top: 20px;" >AZURE HDINSIGHT HADOOP</p>
+                <p style="font-size: 13px;font-weight: 600;text-align: center;
+                color: #03A9F4;">
+                Microsoft Azure HDInsight and why should I care</p>
+                <p style="font-weight: 400;text-align: center;">HDInsight is managed Apache Hadoop offering by Microsoft, can be on cloud or on-premise. We can help you understand, build and maintain enterprise HDInsight clusters.</p>
+        </div>
+    </div>
+    <div class="flex-container4">
+        <div class="flexbox-container4">
+            <svg xmlns="http://www.w3.org/2000/svg"  width="35" height="35" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+            </svg>
+            <h5 style="    letter-spacing: 2px;
+            margin-top: -36px;
+            margin-left: 47px;">AZURE DOCUMENTDB</h5>
+            <p style="margin-top: 20px;">NoSQL is not a buzzword anymore, and JSON is preferred data storage way. With that in mind we provide support to architect and setup Azure DocumentDB.</p>
+        </div>
+        <div class="flexbox-container4">
+            <svg xmlns="http://www.w3.org/2000/svg"  width="35" height="35" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+            </svg>
+            <h5 style="    letter-spacing: 2px;
+            margin-top: -36px;
+            margin-left: 47px;">AZURE IOT HUB</h5>
+            <P style="margin-top: 20px;">Have an idea for IoT but don't want to invest or worry about the communication protocol, security and performance of your backend services, let us leverage Azure IoT Hub offerings to provide end to end solutions to your customer with ease.</P>
+        </div>
+        <div class="flexbox-container4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+            </svg>
+            <h5 style="letter-spacing: 2px;
+            margin-top: -36px;
+            margin-left: 47px;">DATA FACTORY & DATA LAKE</h5>
+            <p style="margin-top: 20px;">Azure Data Lake Store provides ultra-high storage capacity, massive throughput, durable and highly available store for any size of organization and we can guide you on best practices about it.</p>
+       
+        </div>
+        
+            <div class="flexbox-container4">
+                <svg xmlns="http://www.w3.org/2000/svg"  width="35" height="35" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                </svg>
+                <h5 style="    letter-spacing: 2px;
+                margin-top: -36px;
+                margin-left: 47px;">
+                STREAM ANALYTICS</h5>
+                <p style="margin-top: 20px;">Data is as good as the analytic performed to get insight out of it, and performing it on real time basis becoming mission critical to more organization. We can help you build real time analytic services on Hadoop installation.</p>
+            </div>
+            <div class="flexbox-container4">
+                <svg xmlns="http://www.w3.org/2000/svg"  width="35" height="35" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                </svg>
+                <h5 style="    letter-spacing: 2px;
+                margin-top: -36px;
+                margin-left: 47px;">
+               MACHINE LEARNING</h5>
+                <p style="margin-top: 20px;">Simplify your machine learning problems with Azure ML Studio and Cortona Analytics Suite, along with our expertise in designing solutions for small to large scale problems.</p>
+            
+            </div>
+            <div class="flexbox-container4">
+                <svg xmlns="http://www.w3.org/2000/svg"  width="35" height="35" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                </svg>
+                <h5 style="    letter-spacing: 2px;
+                margin-top: -36px;
+                margin-left: 47px;">
+               MICROSOFT HDINSIGHT</h5>
+                <p style="margin-top: 20px;">HDInsight is managed Apache Hadoop offering by Microsoft, can be on cloud or on-premise. We can help you understand, build and maintain enterprise HDInsight clusters.</p>
+            
+            </div>
+    </div>
+    <div class="flex-container5">
+        <h4 style="letter-spacing: 3px;
+            margin-right: -1px; margin-left: 31px;">FOCUSSED, DIVERSE, DISRUPTIVE.</h4>
+            <p style=" margin:30px; font-weight: 400;"> Idea, your innovative idea, you see potential in it or already have good enough customer base following your idealism, your product, but you want something even bigger. You have too many new ideas and interesting thoughts but which one to be focused, that's the important question. Legacy systems demanding more time to operate and your technology stack is pulling you back. We’ll handhold you to create capability to get promising innovation to your consumer really rapidly. We’ll form new habits to efficiently handle your ideas and guide you on how technology can leverage your idea by building software solution around it.</p>
+        
+    </div>
+    <div class="flex-container6">
+        <div class="flexbox-container6">
+            <h1 style="letter-spacing: 10px;margin-top: 60px; font-size: 40px;padding:40px;
+                line-height: 48px;color: #03A9F4!important;font-weight: 400;">THREE V'S
+                    OF BIG DATA. ACTUALLY,
+                    LETS MAKE IT FOUR.</h1>
+                    <hr>
+                    <p style="font-weight: 400;margin: 10px;">Three "V's" of big data, Volume, Velocity and Variety. We understand, care and love them so much that we see ourselves as fourth V in the pact.</p>
+        </div>
+        <div class="flexbox-container6" style="padding: 30px;">
+                <div  class="insidebox">
+                    <h1 style="margin-top: 72px;">1</h1>
+                    <h5>VOLUME</h5>
+                </div>
+                <div  class="insidebox">
+                    <h1 style="margin-top: 72px;">2 </h1>
+                    <h5>VELOCITY</h5>
+                </div>
+                <div  class="insidebox">
+                    <h1 style="margin-top: 72px;">3 </h1>
+                    <h5>VARIETY</h5>
+                </div>
+                <div  class="insidebox">
+                    <h1 style="margin-top: 72px;">4 </h1>
+                    <h5>VELOX</h5>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
